@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+<test name="Verify Home Page">
+    <classes>
+      <class name="cdb.Tests.SC01_TC01_Computer_Database_UI"/>
+      <class name="cdb.Tests.SC02_TC01_TC07_TC08_CreateNewComputer_Navigation_Cancel"/>
+      <class name="cdb.Tests.SC03_TC01_TC02_Filter_Computer_Name_Alphabets_Numeric"/>
+      <class name="cdb.Tests.SC04_TC01_Edit_Computer_Details"/>
+      <class name="cdb.Tests.SC05_TC01_Delete_Computer"/>
+      <class name="cdb.Tests.SC06_TC01_Pagination_10_Records_Displayed_Next_Previous"/>
+      <class name="cdb.Tests.SC06_TC02_Pagination_No_Of_Records_match"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" parallel="none">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="cdb.Tests.AddNewComputerTest">
+        <methods>
+          <include name="destroyDriver"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- cdb.Tests.AddNewComputerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->

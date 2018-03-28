@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="177243" started-at="2016-10-22T05:15:54Z" finished-at="2016-10-22T05:18:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="177243" started-at="2016-10-22T05:15:54Z" finished-at="2016-10-22T05:18:51Z">
+      <class name="cdb.Tests.AddNewComputerTest">
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:cdb.Tests.AddNewComputerTest@b3ca52e]" name="verifyHomePage" duration-ms="176188" started-at="2016-10-22T06:15:54Z" finished-at="2016-10-22T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:cdb.Tests.AddNewComputerTest@b3ca52e]" name="destroyDriver" is-config="true" duration-ms="1028" started-at="2016-10-22T06:18:50Z" finished-at="2016-10-22T06:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- cdb.Tests.AddNewComputerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
